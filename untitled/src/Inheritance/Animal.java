@@ -14,7 +14,7 @@ package Inheritance;
             d.eat();
         }}
 
-////        Multilevel Inheritance
+//        Multilevel Inheritance
 //        When there is a chain of inheritance, it is known as multilevel inheritance
 //class Animal{
 //    void eat(){System.out.println("eating...");}
