@@ -1,4 +1,4 @@
-
+package Day_1;
 
 //    *Abstraction can be achieved with either abstract classes or interfaces
 //    *The abstract keyword is a non-access modifier, used for classes and methods

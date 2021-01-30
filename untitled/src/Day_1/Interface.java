@@ -1,4 +1,4 @@
-//*The interface in Java is a mechanism to achieve abstraction.
+package Day_1;//*The interface in Java is a mechanism to achieve abstraction.
 // There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
 
 //        It is used to achieve abstraction.

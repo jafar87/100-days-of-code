@@ -1,5 +1,3 @@
-package Inheritance;
-
 //When a class inherits another class, it is known as a single inheritance.
     class Animal{
         void eat(){System.out.println("eating...");}
@@ -14,7 +12,7 @@ package Inheritance;
             d.eat();
         }}
 
-//        Multilevel Inheritance
+////        Multilevel Inheritance
 //        When there is a chain of inheritance, it is known as multilevel inheritance
 //class Animal{
 //    void eat(){System.out.println("eating...");}
