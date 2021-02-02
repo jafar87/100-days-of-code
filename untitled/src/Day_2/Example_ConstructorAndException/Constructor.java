@@ -1,4 +1,4 @@
-package Day_2;
+package Day_2.Example_ConstructorAndException;
 //A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
 
 //    Note that the constructor name must match the class name, and it cannot have a return type (like void).

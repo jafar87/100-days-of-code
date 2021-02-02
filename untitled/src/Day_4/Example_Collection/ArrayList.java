@@ -3,6 +3,7 @@ package Day_4.Example_Collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 /*ArrayList;-
     The ArrayList class implements the List interface. It uses a dynamic array to store the duplicate element of different data types.
@@ -15,10 +16,18 @@ import java.util.Iterator;
             list.add("Vijay");
             list.add("Ravi");
             list.add("Ajay");
+            System.out.println(list.get(0));
 //Traversing list through Iterator
-            Iterator itr=list.iterator();
+            ListIterator<String> itr=list.listIterator();
             while(itr.hasNext()){
                 System.out.println(itr.next());
+            }
+            while(itr.hasPrevious()){
+                System.out.println(itr.previous());
+            }
+            Iterator itrarraylist = list.iterator();
+            while (itrarraylist.hasNext()){
+                System.out.println(itrarraylist.next());
             }
         }
     }
