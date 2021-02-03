@@ -15,59 +15,59 @@ package Day_4.Example_Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-class TestJavaCollection2{
+class Browser{
         public static void main(String args[]){
-            LinkedList<String> playlist=new LinkedList<String>();
-            playlist.add("ARRahman Song");
-            playlist.add("Gv Song");
-            playlist.add("Anirudh Song");
-            playlist.add("Yuvan Song");
-            playlist.add("thaman Song");
-            playlist.add("Harrisjayaraj Song");
+            LinkedList<String> url=new LinkedList<String>();
+            url.add("www.javaatpoint.com");
+            url.add("www.techdifferences.com");
+            url.add("www.greeks.com");
+            url.add("www.wikipidea.com");
+            url.add("www.tutorialspoint.com");
+            url.add("www.instagaram.com");
 
-            Iterator<String> itr=playlist.iterator();
+            Iterator<String> itr=url.iterator();
             while(itr.hasNext()){
                 System.out.println(itr.next());
             }
             //Add an element to the first position
-            playlist.addFirst("ilayaraja");
-            System.out.println(playlist);
+            url.addFirst("www.youtube.com");
+            System.out.println(url);
             //Add an element to the first position
-            playlist.addLast("hiphop");
-            System.out.println(playlist);
+            url.addLast("www.twitter.com");
+            System.out.println(url);
 
             //removeFirstOccurence
-            playlist.removeFirstOccurrence("Gv Song");
-            System.out.println("After removing the first occurence of 2 "+ playlist);
+            url.removeFirstOccurrence("www.greeks.com");
+            System.out.println("After removing the first "+ url);
 
             //removeLastOccurrence
-            playlist.removeLastOccurrence("hiphop");
-            System.out.println("After removing the last occurence of 6 "+ playlist);
+            url.removeLastOccurrence("www.wikipidea.com");
+            System.out.println("After removing the last occurence "+ url);
 
 
             //Add an element to the first position
 
-            System.out.println(playlist.getFirst());
+            System.out.println(url.getFirst());
             //Get the first value using index position
-            System.out.println(playlist.get(0));
+            System.out.println(url.get(0));
 
             //removeFirst and removeLast
-            System.out.println("Remove first :"+playlist.removeFirst());
-            System.out.println("Remove last :"+playlist.removeLast());
+            System.out.println("Remove first :"+url.removeFirst());
+            System.out.println("Remove last :"+url.removeLast());
 
-            System.out.println(playlist);
+            System.out.println(url);
 
             //poll method  and pollfirst() deletes the first element in the list
-            System.out.println(playlist.poll());
-            System.out.println(playlist);
+            System.out.println(url.poll());
+            System.out.println(url);
 
             //pollLast deletes the last
-            playlist.pollLast();
-            System.out.println(playlist);
+            url.pollLast();
+            System.out.println(url);
 
             //remove deletes the first element
-            playlist.remove();
-            System.out.println(playlist);
+            url.remove();
+            System.out.println(url);
         }
     }
 
