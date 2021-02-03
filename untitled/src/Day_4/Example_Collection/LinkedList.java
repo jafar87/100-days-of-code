@@ -5,6 +5,13 @@ package Day_4.Example_Collection;
     It can store the duplicate elements.
     It maintains the insertion order and is not synchronized.*/
 
+/*
+ * LinkedList performs the worst if the operation is retrieval of data.
+ * Hence if our requirement is to fetch data, we should use ArrayList.
+ * But LinkedList is the best choice if we have requirements of adding and
+ * removing data very often. In this case we should avoid ArrayList
+ */
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
